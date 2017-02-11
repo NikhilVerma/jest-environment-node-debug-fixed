@@ -17,8 +17,9 @@ function deepCopy(obj) {
 }
 
 // Object.assign polyfill with try/catch for each assignment expression
-function assign(target) { // .length of function is 2
-    if (target === null) { // TypeError if undefined or null
+// https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill
+function assign(target) {
+    if (target === null) {
         throw new TypeError('Cannot convert undefined or null to object');
     }
 
@@ -34,7 +35,9 @@ function assign(target) { // .length of function is 2
                     try {
                         to[nextKey] = nextSource[nextKey];
                     }
-                    catch (e) {}
+                    catch (e) {
+                        // Any errors are caused by trying to extend node's environment
+                    }
                 }
             }
         }
@@ -65,6 +68,7 @@ class NodeDebugEnvironment {
         const jestCustomConsole = this.global.console;
 
         if (jestCustomConsole !== null) {
+
             // but we can alter properties in any case
             assign(global.console, jestCustomConsole);
 

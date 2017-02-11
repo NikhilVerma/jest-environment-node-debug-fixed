@@ -1,5 +1,5 @@
 {
-  "name": "jest-environment-node-debug-fixed",
+  "name": "jest-environment-node-debug",
   "version": "1.0.0",
   "description": "Fixed version of jest-environment-node-debug which works with Node7 and Jest18",
   "main": "index.js",

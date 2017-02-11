@@ -1,6 +1,7 @@
 # jest-environment-node-debug-fixed
-Fixed version of jest-environment-node-debug which works with Nodev7 and Jest 18
+
+Version of jest-environment-node-debug which works with Nodev7 and Jest 18
 
 My preferred way to debug tests is using [devtool](https://www.npmjs.com/package/devtool)
 
-Many Thanks to [develar](https://www.npmjs.com/~develar) for the [original module](https://www.npmjs.com/package/jest-environment-node-debug)
+Many Thanks to [develar](https://www.npmjs.com/~develar) for the original code.
