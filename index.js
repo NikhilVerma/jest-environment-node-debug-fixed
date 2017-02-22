@@ -1,7 +1,7 @@
 'use strict';
 
 const FakeTimers = require('jest-util').FakeTimers;
-const ModuleMocker = require('jest-mock');
+const ModuleMocker = require('jest-mock').ModuleMocker;
 
 function deepCopy(obj) {
     const newObj = {};
