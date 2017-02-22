@@ -1,11 +1,8 @@
 {
   "name": "jest-environment-node-debug",
-  "version": "1.0.0",
-  "description": "Fixed version of jest-environment-node-debug which works with Node7 and Jest18",
+  "version": "2.0.0",
+  "description": "Fixed version of jest-environment-node-debug which works with Node 7 and Jest 19",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NikhilVerma/jest-environment-node-debug-fixed.git"
