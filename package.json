@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "Fixed version of jest-environment-node-debug which works with Node 7 and Jest 19",
   "main": "index.js",
+  "scripts": {
+    "devtool": "devtool ./node_modules/jest-cli/bin/jest.js -i --no-cache --config=debug-test/jest.debug.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NikhilVerma/jest-environment-node-debug-fixed.git"
@@ -18,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/NikhilVerma/jest-environment-node-debug-fixed/issues"
   },
-  "homepage": "https://github.com/NikhilVerma/jest-environment-node-debug-fixed#readme"
+  "homepage": "https://github.com/NikhilVerma/jest-environment-node-debug-fixed#readme",
+  "dependencies": {
+    "devtool": "^2.3.1",
+    "jest-cli": "^19.0.1"
+  }
 }

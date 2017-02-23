@@ -1,0 +1,11 @@
+{
+    "verbose": true,
+    "resetModules": true,
+    "timers": "fake",
+    "collectCoverage": false,
+    "resetModules": true,
+    "roots": [
+        "<rootDir>/debug-test"
+    ],
+    "testEnvironment": "./index.js"
+}
