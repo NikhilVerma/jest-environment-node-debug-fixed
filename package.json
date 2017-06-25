@@ -24,6 +24,6 @@
   "homepage": "https://github.com/NikhilVerma/jest-environment-node-debug-fixed#readme",
   "dependencies": {
     "devtool": "^2.3.1",
-    "jest": "^19.0.1"
+    "jest": "^20.0.1"
   }
 }

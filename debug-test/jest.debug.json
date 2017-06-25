@@ -4,8 +4,5 @@
     "timers": "fake",
     "collectCoverage": false,
     "resetModules": true,
-    "roots": [
-        "<rootDir>/debug-test"
-    ],
-    "testEnvironment": "./index.js"
+    "testEnvironment": "../index.js"
 }
